@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 import Btn from '../component/Btn'
 import { DATA_PAGE_TT_LES_SERVICES } from '../data'
 
@@ -17,7 +18,9 @@ function Card() {
                 <h3 className='mb-[5%] text-[18px] text-gd-txt font-semibold lg:text-[24px]'>{item.h4}</h3>
                 <p className=' mb-[30px] lg:mb-[13%]'>{item.p}</p>
                 <div className='lg:absolute bottom-[13%] '>
-                  <Btn/>
+                  <Link href={item.link}>
+                    <Btn/>
+                  </Link>
                 </div>
               </div>
               <div className='lg:w-[50%] mb-[30px] lg:mb-0 '>

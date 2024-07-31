@@ -2,6 +2,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import Btn from '@/app/component/Btn'
+import BtnContact from '@/app/component/BtnContact'
 
 function Carde({props}:any) {
   return (
@@ -20,7 +21,7 @@ function Carde({props}:any) {
                 )
               }
                 <Link href={props.link}>
-                  <Btn/>
+                  <BtnContact/>
                 </Link>
               </div>
           </div>

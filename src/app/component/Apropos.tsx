@@ -24,7 +24,7 @@ function Apropos() {
                 <span><Linkedin/></span>
                 <span className='ml-4'><Instagram/></span>
              </div> 
-               <button className='font-Playwrite text-[22px] text-txt-style flex items-center gap-3 border-or-pale  border px-2 py-1 lg:px-3 lg:py-2'>
+               <button className='transition ease-in-out delay-75 hover:bg-txt-style hover:text-bg font-Playwrite text-[22px] text-txt-style flex items-center gap-3 border-or-pale  border px-2 py-1 lg:px-3 lg:py-2'>
                 <h3>{APROPOS_SECTION.txt5}</h3>
                 <span><TrendingUp/></span>
                </button>

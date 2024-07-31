@@ -1,3 +1,4 @@
+import { NOTRE_GUIDE } from "@/app/data";
 
 const data ={
     h3:"Notre guide pour un anniversaire inoubliable !",
@@ -17,12 +18,12 @@ const Guide = () => {
     return (
         <section className='bg-white'>
          <div className='mx-auto py-[50px] lg:py-[100px] w-[90%] sm:w-[80%] lg:w-[60%] max-w-[1080px] '>
-          <h3 className='text-[22px] lg:text-[31px] text-center font-semibold mb-[5%]'>{data.h3}</h3>
+          <h2 className='text-[20px] lg:text-[28px] text-center font-semibold mb-[5%]'>{NOTRE_GUIDE.h2}</h2>
           {
-            data.gp.map((item,index)=>
+            NOTRE_GUIDE.liste.map((item,index)=>
               <div key={index}>
                 <p className='py-2'>
-                  <strong className='text-gd-txt'>{item.txt1}</strong>
+                  <strong className='text-gd-txt'>{item.txt1} </strong>
                   {item.txt2}
                 </p>
               </div>

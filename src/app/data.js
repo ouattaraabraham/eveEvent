@@ -28,7 +28,7 @@ export const DATA_PAGE_TT_LES_SERVICES = {
       h3:"Pour un",
       h4:"MARIAGE PERSONNALISÉ SUR MESURE",
       p:"Magalie est une spécialiste de l’évènementiel touristique international. Elle est bilingue, mariée et mère d’un petit garçon. Après des années en tant que responsable d’agence de tourisme, et des milliers de voyages évènementiels organisés aux quatre coins du monde auprès d’une clientèle exigeante, elle lance Dreams Come True Events en 2017.",
-      link:"/evenement-prives/decoration-mariage-personnalise",
+      link:"/evenement-prives/decoration-mariage",
       img:mariageDouble,
       a:true,
     },
@@ -37,7 +37,7 @@ export const DATA_PAGE_TT_LES_SERVICES = {
       h3:"Pour un",
       h4:"ANNIVERSAIRE PERSONNALISÉ SUR MESURE",
       p:"Magalie est une spécialiste de l’évènementiel touristique international. Elle est bilingue, mariée et mère d’un petit garçon. Après des années en tant que responsable d’agence de tourisme, et des milliers de voyages évènementiels organisés aux quatre coins du monde auprès d’une clientèle exigeante, elle lance Dreams Come True Events en 2017.",
-      link:"/evenement-prives/decoration-mariage-personnalise",
+      link:"/evenement-prives/decoration-anniversaire",
       img:anivDouble ,
       a:false,
     },
@@ -46,7 +46,7 @@ export const DATA_PAGE_TT_LES_SERVICES = {
       h3:"Pour un",
       h4:"BAPTÊME PERSONNALISÉ SUR MESURE",
       p:"Magalie est une spécialiste de l’évènementiel touristique international. Elle est bilingue, mariée et mère d’un petit garçon. Après des années en tant que responsable d’agence de tourisme, et des milliers de voyages évènementiels organisés aux quatre coins du monde auprès d’une clientèle exigeante, elle lance Dreams Come True Events en 2017.",
-      link:"/evenement-prives/decoration-bateme",
+      link:"/evenement-prives/decoration-bapteme",
       img:reliDouble,
       a:true,
     },
@@ -60,6 +60,19 @@ export const DATA_PAGE_TT_LES_SERVICES = {
       a:false,
     },
   ],
+}
+
+//NOTRE GUIDE
+
+export const NOTRE_GUIDE ={
+  h2:"Notre guide pour un anniversaire inoubliable !",
+  liste:[
+    {txt1:"Planification Personnalisée",txt2:"Chaque événement commence par une vision unique. Nous collaborons avec vous pour comprendre vos souhaits et créer une planification détaillée qui reflète vos rêves.",},
+    {txt1:"Sélection de Lieu",txt2:"Nous vous aidons à choisir le lieu parfait qui correspond à l'ambiance et au thème de votre événement, en prenant en compte tous les détails logistiques.",},
+    {txt1:"Décoration Sur-Mesure",txt2:"Notre équipe de décorateurs talentueux transforme chaque espace en un lieu magique grâce à des concepts créatifs et des décorations personnalisées.",},
+    {txt1:"Coordination du Jour J",txt2:"Profitez pleinement de votre événement pendant que nous nous occupons de la coordination. Nous veillons à ce que tout se déroule sans accroc et selon vos souhaits.",},
+    {txt1:"Services de Traiteur Exquis",txt2:"Offrez à vos invités une expérience culinaire exceptionnelle avec nos partenaires traiteurs qui proposent des menus variés et raffinés.",},
+  ]
 }
 
 
