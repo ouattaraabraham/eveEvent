@@ -3,7 +3,6 @@ import React from "react";
 import { DATA_CONTACT } from "../data";
 import Btn from "../component/Btn";
 
-// const bgg= {`url(${img1})`}
 const Contacter = () => {
   const handlerSubmit = (e: any) => {
     e.preventDefault();

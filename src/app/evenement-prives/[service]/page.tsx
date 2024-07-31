@@ -3,7 +3,6 @@ import ServiceEvents from '@/app/component/ServiceEvents'
 import React from 'react'
 import Guide from './Guide'
 import Card from './Card'
-// import { DATA_NAV_LINK } from '@/app/data'
 import Motivation from '@/app/component/Motivation'
 
 

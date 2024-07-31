@@ -5,7 +5,6 @@ import { DATA_PAGE_TT_LES_SERVICES } from '../data'
 
 function Card() {
 
-  const a=true
   return (
     <section className='py-[50px] lg:py-[100px] bg-rosee '>
        <h2 className='mb-[5%] text-center font-semibold font-Playwrite text-[22px] lg:text-[31px] '>{DATA_PAGE_TT_LES_SERVICES.h2}</h2>

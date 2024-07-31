@@ -13,7 +13,8 @@ export const PRESANTATION_HOME = {
     "Que ce soit pour des mariages féériques, des anniversaires joyeux, des baptêmes intimes, ou tout autre événement marquant, nous mettons notre créativité et notre expertise à votre service. Nous travaillons avec vous pour comprendre vos désirs et vos besoins, et nous assurons que chaque détail est soigneusement pensé et parfaitement exécuté.",
     "Avec [Nom de Eve-Event, vous pouvez vous détendre et profiter de votre événement, sachant que chaque aspect est entre de bonnes mains. Laissez-nous créer pour vous des souvenirs que vous chérirez pour toujours.",
     "Explorez nos services et découvrez comment nous pouvons vous aider à réaliser l'événement de vos rêves.",
-  ]
+  ],
+  img:img4,
 }
 
 // DATA_PAGE_TT_LES SERVICES

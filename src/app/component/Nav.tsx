@@ -4,7 +4,7 @@ import Link from 'next/link'
 import Image from 'next/image';
 import { AlignJustify,X,ChevronRight  } from "lucide-react";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { DATA_NAV_LINK, logoEve } from '../data';
 
 
@@ -13,14 +13,17 @@ function Nav() {
 
     const [isOpenMenu, setIsOpenMenu] = useState(false);
 
-  window.addEventListener("scroll", function () {
-    setIsOpenMenu(false)
-  })
   const toggleMenu = ()=>{
     console.log("toggle menu"+isOpenMenu)
     setIsOpenMenu(prev=>!prev)
   }
-
+  
+  useEffect(()=>
+    {
+      window.addEventListener("scroll", function () {
+        setIsOpenMenu(false)
+      })
+    },[])
   return (
     <>
 

@@ -1,23 +1,12 @@
+
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { ChevronRight } from 'lucide-react';
 
-import { DATA_FOOTER, logoEve } from "../data";
+import { DATA_FOOTER } from "../data";
 import { logo } from "../assets/logo";
-const data = {
-  link1: [
-    { lin: "A-propos" },
-    { lin: "Contact" },
-    { lin: "galerie" },
-    { lin: "Organisation proffesionnel" },
-    { lin: "Décoration mariage personnalisé" },
-    { lin: "Décoration anniversaire" },
-    { lin: "Décoration bateme" },
-    { lin: "Décoration autre fete" },
-  ],
-  link2: [{ lin: "Apropos" ,txt1:"Mobile & WhatsApp:",txt2:"+07976800900"}, { lin: "Galerie" ,txt1:"Email:",txt2:"info@asianwed.net", }, { lin: "Contact" ,txt1:"Facebook:",txt2:"facebook.com/asianwed", },{ lin: "Contact" ,txt1:"Instagram:",txt2:"instagram.com/asianwed", }],
-};
+
 export default function Footer() {
   return (
     <section className="bg-white">
@@ -73,10 +62,10 @@ export default function Footer() {
               <br/>
               B7 5AN
               </p>
-              <p >
+              <div >
                 <h3>Opening Hours:</h3>
                 <p>Mon-Fri: 9am – 4pm</p>
-              </p>
+              </div>
             </div> 
           </div>
         </div>

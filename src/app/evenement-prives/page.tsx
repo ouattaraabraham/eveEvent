@@ -1,4 +1,3 @@
-import React from 'react'
 import Card from './Card'
 import { SliderCard } from '../component/SliderCard'
 import Motivation from '../component/Motivation'

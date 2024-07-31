@@ -1,9 +1,6 @@
 import Image from 'next/image'
 
 import { Linkedin, Instagram , TrendingUp} from 'lucide-react';
-
-import Btn from './Btn'
-import { img2, img3, img4 } from '../assets/img'
 import { APROPOS_SECTION } from '../data';
 
 function Apropos() {

@@ -1,5 +1,3 @@
-import React from 'react';
-
 
 const data ={
     h3:"Notre guide pour un anniversaire inoubliable !",

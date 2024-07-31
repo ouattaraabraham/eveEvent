@@ -1,21 +1,22 @@
 "use client";
 import { useState, useEffect } from "react";
-import Link from "next/link";
-
-import Image from "next/image";
-import { logoEve } from "../data";
 import Nav from "./Nav";
  
  
  function Header() {
 
     const [scrollValue, setScrollValue] = useState(false);
-  let previousScrollPosition = 0;
-  let currentScrollPosition = 0;
+    const [currentScrollPosition, setcurrentScrollPosition] = useState(0);
+    const [previousScrollPosition, setPreviousScrollPosition] = useState(0);
+
+
+  // let previousScrollPosition = 0;
+  // let currentScrollPosition = 0;
 
   useEffect(() => {
     window.addEventListener("scroll", function () {
-      currentScrollPosition = window.pageYOffset;
+      // currentScrollPosition = window.pageYOffset;
+      setcurrentScrollPosition(window.pageYOffset)
 
       //Subtract the two and conclude
       if (previousScrollPosition - currentScrollPosition < 0) {
@@ -27,9 +28,11 @@ import Nav from "./Nav";
       }
 
       // Update the previous value
-      previousScrollPosition = currentScrollPosition;
+      // previousScrollPosition = currentScrollPosition;
+      setPreviousScrollPosition(currentScrollPosition)
+
     });
-  }, []) 
+  }, [currentScrollPosition,previousScrollPosition]) 
     return (
         <>
         <div className="z-50 w-full bg-[#FFFFFF] shadow-md">

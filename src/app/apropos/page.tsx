@@ -5,18 +5,7 @@ import {TrendingUp} from 'lucide-react';
 import { img4 } from '../assets/img'
 import Service from '../component/Service'
 
-const data ={
-  h3:"",
-  gp:[
-    {txt1:"Créez une ambiance magique : ",txt2:" Définissez un thème pour votre soirée. Ambiance années 80 ? Ambiance Gatsby ? Généralement, c'est par la couleur de votre décoration que cela se fera ressentir. Pour une ambiance réussie, décorez toutes les surfaces de la pièce, y compris le plafond, via des guirlandes par exemple !",},
-    {txt1:"Créez une ambiance magique : ",txt2:" Définissez un thème pour votre soirée. Ambiance années 80 ? Ambiance Gatsby ? Généralement, c'est par la couleur de votre décoration que cela se fera ressentir. Pour une ambiance réussie, décorez toutes les surfaces de la pièce, y compris le plafond, via des guirlandes par exemple !",},
-    {txt1:"Créez une ambiance magique : ",txt2:" Définissez un thème pour votre soirée. Ambiance années 80 ? Ambiance Gatsby ? Généralement, c'est par la couleur de votre décoration que cela se fera ressentir. Pour une ambiance réussie, décorez toutes les surfaces de la pièce, y compris le plafond, via des guirlandes par exemple !",},
-    {txt1:"Créez une ambiance magique : ",txt2:" Définissez un thème pour votre soirée. Ambiance années 80 ? Ambiance Gatsby ? Généralement, c'est par la couleur de votre décoration que cela se fera ressentir. Pour une ambiance réussie, décorez toutes les surfaces de la pièce, y compris le plafond, via des guirlandes par exemple !",},
-    {txt1:"Créez une ambiance magique : ",txt2:" Définissez un thème pour votre soirée. Ambiance années 80 ? Ambiance Gatsby ? Généralement, c'est par la couleur de votre décoration que cela se fera ressentir. Pour une ambiance réussie, décorez toutes les surfaces de la pièce, y compris le plafond, via des guirlandes par exemple !",},
-    {txt1:"Créez une ambiance magique : ",txt2:" Définissez un thème pour votre soirée. Ambiance années 80 ? Ambiance Gatsby ? Généralement, c'est par la couleur de votre décoration que cela se fera ressentir. Pour une ambiance réussie, décorez toutes les surfaces de la pièce, y compris le plafond, via des guirlandes par exemple !",},
 
-  ]
-}
 export default function apropos() {
   return (
     <div>

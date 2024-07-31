@@ -2,7 +2,6 @@
 import { motion } from "framer-motion";
 import React from "react";
 import { ImagesSlider } from "./ui/images-slider";
-import Btn from "./Btn";
 export function SliderCard() {
   const images = [
       "https://img.freepik.com/photos-gratuite/elegant-elegant-allee-mariage-blanc-chaises-escaliers_8353-77.jpg?t=st=1722102966~exp=1722106566~hmac=9f8401c35c2e1917b1e2bbfd90476729e32d9b167f52eac32ae010794911cf31&w=900",

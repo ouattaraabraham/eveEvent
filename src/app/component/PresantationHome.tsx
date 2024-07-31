@@ -1,6 +1,4 @@
-import React from 'react'
 import Image from 'next/image'
-import { img2, img3, img4 } from '../assets/img'
 import Btn from './Btn'
 import { PRESANTATION_HOME } from '../data'
  function PresantationHome() {
@@ -21,7 +19,7 @@ import { PRESANTATION_HOME } from '../data'
            </div>
 
            <div className='lg:w-[47%]'>
-              <Image className='w-full' src={img4} alt='decoratrice' />
+              <Image className='w-full' src={PRESANTATION_HOME.img} alt='decoratrice' />
            </div>
         </div>
     </section>
