@@ -33,12 +33,12 @@ function Nav() {
       </Link> 
       <div className='lg:hidden '>
         <button className='z-30' onClick={toggleMenu}>
-          {isOpenMenu?<X color='#DAC3A4' size={25}/>:<AlignJustify color='#DAC3A4' size={25}/>}
+          {isOpenMenu?<X color='#D4AF37' size={25}/>:<AlignJustify color='#D4AF37' size={25}/>}
         </button>
         {isOpenMenu&&(
       
-            <div className='z-20 fixed top-[90px] bg-rose left-0 w-full h-fit py-5 font-Playwrite text-[18px]'>
-            <ul className='font-bold text-[18px] pl-6 mt-5'>
+            <div className='z-20 fixed top-[90px] bg-bg shadow-md left-0 w-full h-fit py-5 text-[18px]'>
+            <ul className='font-bold text-[18px] pl-[8%] mt-5'>
               {DATA_NAV_LINK.map(item=>
                 <li className={`py-2 px-2 rounded-lg ${item.id !==1?"hover:bg-blue-800/10": ""}  `} key={item.id}>
                   {item.id !==1?

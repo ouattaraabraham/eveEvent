@@ -10,10 +10,9 @@ function Carde({props}:any) {
         
         <section>
          <div className='mx-auto py-[50px] lg:py-[100px] w-[90%] md:w-[80%] max-w-[1080px] lg:flex justify-between'>
-
           <div className='lg:w-[47%] pb-[30px] lg:pb-0 mb-[30px] lg:mb-0 lg:mr-[5.5%]]'>
             <div>
-                <h3 className='mb-[4%] lg:mb-[8%] text-[22px]] text-[31px] font-Playwrite text-txt-style'>{props.card.h3}</h3>
+                <h3 className='mb-[4%] lg:mb-[8%] text-[22px]] text-[31px] text-txt-style'>{props.card.h3}</h3>
 
               {
                 props.card.liste.map((item:any,index:number)=>

@@ -34,7 +34,7 @@ const Contacter = () => {
         <div className="mx-auto max-w-[1080] w-[80%] lg:w-fulll py-[50px] lg:py-[100px]">
           <div className="lg:flex justify-between gap-5">
             {/* left */}
-            <div className={`lg:w-[45%] bg-custom-image bg-cover bg-center h-64 w-full`}
+            <div className={`lg:w-[45%] bg-custom-image bg-cover bg-centerw-full`}
           
             >
               <div className="pb-10">

@@ -6,7 +6,7 @@ export default function Service() {
   return (
     <section>
         <div className='bg-bg py-[50px] lg:py-[8%]  mx-auto'>
-            <h2 className='mx-auto w-[90%] sm:w-[80%] mb-[5%] text-gd-txt font-semibold tracking-[2px]] text-center max-w-3xl text-[20px] lg:text-[28px]'>{SERVICE.h2}</h2>
+            <h2 className='mx-auto w-[90%] sm:w-[80%] lg:mb-[5%] text-gd-txt font-semibold tracking-[2px]] text-center max-w-3xl text-[18px] lg:text-[28px]'>{SERVICE.h2}</h2>
             <div className="w-[80%] mx-auto md:flex justify-between">
               {
                 SERVICE.service.map((item,index)=>

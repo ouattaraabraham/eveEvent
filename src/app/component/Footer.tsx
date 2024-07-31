@@ -14,7 +14,7 @@ export default function Footer() {
       <div className="mx-auto w-[90%] max-w-[1080px] text-[12px] py-[5%] lg:pb-[3%] ">
         <div className="w-[90%] lg:w-[100%] mx-auto text-[18px]  flex flex-wrap md:justify-between gap-10 ">
             <div className="w-[40%]] md:w-[30%]">
-              <h3 className="mb-[2%] text-[22px] lg:text-[31px] text-txt-style font-Playwrite">{DATA_FOOTER.div1.txt1}</h3>
+              <h3 className="mb-[2%] text-[22px] lg:text-[28px] text-txt-style font-semibold font-Playwrite">{DATA_FOOTER.div1.txt1}</h3>
                 <div >
                   <ul className="list-none">
                     {DATA_FOOTER.div1.div.map((item, index) => (
@@ -28,7 +28,7 @@ export default function Footer() {
             </div>
 
             <div className="w-[40%]] md:w-[30%] ">
-                <h4 className="font-Playwrite pb-[2%] text-[22px] lg:text-[31px] text-txt-style  lg:pb-[4.174%]">{DATA_FOOTER.div2.txt1}</h4>
+                <h4 className="font-Playwrite pb-[2%] text-[22px] lg:text-[28px] font-semibold text-txt-style  lg:pb-[4.174%]">{DATA_FOOTER.div2.txt1}</h4>
 
                 <div >
                   <ul className="list-none">
@@ -71,7 +71,7 @@ export default function Footer() {
         </div>
 
 
-        <div className=" mx-auto mt-[50px] mb-[2px] bg-gray-300  w-[60%] h-[2px] "> </div>
+        <div className=" mx-auto lg:mt-[50px] mb-[2px] bg-gray-300  w-[60%] h-[2px] "> </div>
             <p className="text-[16px]  pt-4 mx-auto w-fit">Réalisé par astraOne solution digitale</p>
       </div>
     </section>

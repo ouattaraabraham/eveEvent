@@ -13,14 +13,14 @@ export default function CardApropos() {
 
          <div className='lg:w-[47%] pb-[30px] lg:pb-0 mb-[30px] lg:mb-0 lg:mr-[5.5%]]'>
            <div>
-              <h3 className='mb-[4%] lg:mb-[8%] text-[31px] font-Playwrite text-txt-style'>{DATA_APROPOS.h3}</h3>
+              <h3 className='mb-[4%] lg:mb-[8%] text-[24px] lg:text-[31px] text-txt-style'>{DATA_APROPOS.h3}</h3>
               {
                 DATA_APROPOS.list.map((item,index)=>
                     <p key={index}  className='pb-[1em]'>{item}</p>
                 )
               }
               <Link href={DATA_APROPOS.link}>
-                <div className='border-2 border-txt-style w-fit p-2 font-Playwrite mt-[5%] text-[22px] text-txt-style flex items-center gap-4'>
+                <div className='border-2 border-txt-style w-fit p-2  mt-[5%] text-[22px] text-txt-style flex items-center gap-4'>
                     <h3>Contacter</h3>
                     <span><TrendingUp/></span>
                 </div>

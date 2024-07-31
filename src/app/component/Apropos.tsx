@@ -10,8 +10,8 @@ function Apropos() {
 
            <div className='md:w-[40%] pb-[30px]'>
             <div className='mb-[30px]  lg:mb-[5.82%]'>
-                <h2 className='mb-[5%] text-txt-style text-[40px]'>{APROPOS_SECTION.txt1}</h2>
-                <h3 className='font-Playwrite'>{APROPOS_SECTION.txt2}</h3>
+                <h2 className='font-Playwrite mb-[5%] text-txt-style text-[40px]'>{APROPOS_SECTION.txt1}</h2>
+                <h3 className=''>{APROPOS_SECTION.txt2}</h3>
             </div>
 
             <div className='mb-[30px]  lg:mb-[5.82%]'>
