@@ -78,21 +78,21 @@ function Nav() {
               DATA_NAV_LINK.map(item=>
                 <div key={item.id}>
                      {item.id !==1 && item.id !==4?
-                  <li className='border-b-2 border-t-2 py-2 border-txt-style' key={item.id}>
+                  <li className='transition ease-in-out delay-75 border-b-2 border-t-2 py-2 border-txt-style hover:bg-txt-style' key={item.id}>
                    <Link className={`px-5 py-4`} href={item.link}>{item.name}</Link>
                   </li>
                   :item.id ==1?(
                     <div className='relative'>
-                      <li className='flex gap-2 items-center border-b-2 border-t-2 py-2 border-txt-style h-full px-5 peer transition delay-700 duration-1000 ease-in-out cursor-pointer'>
+                      <li className='transition ease-in-out delay-75 hover:bg-txt-style flex gap-2 items-center border-b-2 border-t-2 py-2 border-txt-style h-full px-5 peer cursor-pointer '>
                         <Link href={item.link}>{item.name}</Link>
                         <ChevronRight size={20}/>
                       </li>
-                      <div  className='absolute -left-5 duration-700 invisible hidden  opacity-0 peer-hover:visible hover:visible peer-hover:block hover:block peer-hover:opacity-100 hover:opacity-100 w-fit'>
-                        <ul className='w-fit text-[16px] text-nowrap px-4 py-5 bg-bg rounded-xl'>
+                      <div  className='absolute -left-2 duration-700 invisible hidden  opacity-0 peer-hover:visible hover:visible peer-hover:block hover:block peer-hover:opacity-100 hover:opacity-100 w-fit'>
+                        <ul className='w-fit text-[16px] text-nowrap px-4 py-5 bg-bg rounded-sm'>
                           {
                           item.sousLink&&(item.sousLink.map(item=>
-                            <li key={item.id} className={`${item.id==3?'border-b-2':''} border-t-2 py-2 border-txt-style`}>
-                              <Link className='py-3 px-2 hover:font-Playwrite rounded-lg' href={item.link}>{item.name}</Link>
+                            <li key={item.id} className={`${item.id==3?'border-b-2':''} border-t-2 py-2 border-txt-style transition ease-in-out delay-75 hover:bg-txt-style`}>
+                              <Link className='py-3 px-2 rounded-lg' href={item.link}>{item.name}</Link>
                               </li>
                           )
                           )}

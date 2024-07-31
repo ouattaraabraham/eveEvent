@@ -6,12 +6,12 @@ function ServiceEvents() {
   return (
     <section>
       <div className="pt-[5%] py-[7%] lg:py-[7%] lg:pt-[5%] bg-[linear-gradient(180deg,_#f7f7f7_44%,_#EEE8DF_44%)]">
-        <div className="font-Playwrite text-gd-txt w-[90%] mx-auto text-center pt-[30px] lg:py-[2%]">
+        <div className=" text-gd-txt w-[90%] mx-auto text-center pt-[30px] lg:py-[2%]">
           <h2 className="tracking-[2px] font-Playwrite text-txt-style  text-[31px] mb-[2%]">
             {" "}
             {SERVICE_EVENT.h2}
           </h2>
-          <h3 className="mb-[3%] text-[20px] lg:text-[22px]">{SERVICE_EVENT.h3}</h3>
+          <h3 className="mb-[3%] text-[20px] lg:text-[22px] font-semibold">{SERVICE_EVENT.h3}</h3>
         </div>
 
         <div className="mx-auto w-[90%] sm:w-[80%] font-Playwrite font-semibold text-[18px] lg:text-[20px] flex flex-wrap justify-between ">

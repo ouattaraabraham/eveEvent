@@ -7,7 +7,7 @@ function Card() {
 
   return (
     <section className='py-[50px] lg:py-[100px] bg-rosee '>
-       <h2 className='mb-[5%] text-center font-semibold font-Playwrite text-[22px] lg:text-[31px] '>{DATA_PAGE_TT_LES_SERVICES.h2}</h2>
+       <h2 className='mb-[5%] lg:mb-[3%] text-center font-semibold font-Playwrite text-[22px] lg:text-[31px] '>{DATA_PAGE_TT_LES_SERVICES.h2}</h2>
       {
         DATA_PAGE_TT_LES_SERVICES.services.map(item=>
           <div key={item.id}  className={`${item.a?"bg-rose":""} py-[50px] lg:py-[75px] lg:bg-[#f7f7f700]`}>

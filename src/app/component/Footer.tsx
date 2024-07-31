@@ -11,8 +11,8 @@ export default function Footer() {
   return (
     <section className="bg-white">
       <div className=" mx-auto my-[50px]] mb-[25px]] lg:my-[50px]] bg-gray-300  w-full h-[2px] "> </div>
-      <div className="mx-auto w-[90%] max-w-[1080px] text-[12px] py-[5%]">
-        <div className="w-[90%] lg:w-[100%] mx-auto text-[18px] font-Playwrite flex flex-wrap md:justify-between gap-10 ">
+      <div className="mx-auto w-[90%] max-w-[1080px] text-[12px] py-[5%] lg:pb-[3%] ">
+        <div className="w-[90%] lg:w-[100%] mx-auto text-[18px]  flex flex-wrap md:justify-between gap-10 ">
             <div className="w-[40%]] md:w-[30%]">
               <h3 className="mb-[2%] text-[22px] lg:text-[31px] text-txt-style font-Playwrite">{DATA_FOOTER.div1.txt1}</h3>
                 <div >
@@ -28,7 +28,7 @@ export default function Footer() {
             </div>
 
             <div className="w-[40%]] md:w-[30%] ">
-                <h4 className=" pb-[2%] text-[22px] lg:text-[31px] text-txt-style  lg:pb-[4.174%]">{DATA_FOOTER.div2.txt1}</h4>
+                <h4 className="font-Playwrite pb-[2%] text-[22px] lg:text-[31px] text-txt-style  lg:pb-[4.174%]">{DATA_FOOTER.div2.txt1}</h4>
 
                 <div >
                   <ul className="list-none">
@@ -72,7 +72,7 @@ export default function Footer() {
 
 
         <div className=" mx-auto mt-[50px] mb-[2px] bg-gray-300  w-[60%] h-[2px] "> </div>
-            <p className="text-[18px]  pt-4 mx-auto w-fit">Réalisé par astraOne solution digitale</p>
+            <p className="text-[16px]  pt-4 mx-auto w-fit">Réalisé par astraOne solution digitale</p>
       </div>
     </section>
   );

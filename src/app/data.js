@@ -11,10 +11,11 @@ export const PRESANTATION_HOME = {
   service:[
     "Bienvenue chez Eve-Event, votre partenaire de confiance pour des événements inoubliables. Spécialisée dans la décoration et l'organisation d'événements, notre équipe dédiée et passionnée transforme chaque moment spécial en une expérience magique et mémorable.",
     "Que ce soit pour des mariages féériques, des anniversaires joyeux, des baptêmes intimes, ou tout autre événement marquant, nous mettons notre créativité et notre expertise à votre service. Nous travaillons avec vous pour comprendre vos désirs et vos besoins, et nous assurons que chaque détail est soigneusement pensé et parfaitement exécuté.",
-    "Avec [Nom de Eve-Event, vous pouvez vous détendre et profiter de votre événement, sachant que chaque aspect est entre de bonnes mains. Laissez-nous créer pour vous des souvenirs que vous chérirez pour toujours.",
+    "Avec Eve-Event, vous pouvez vous détendre et profiter de votre événement, sachant que chaque aspect est entre de bonnes mains. Laissez-nous créer pour vous des souvenirs que vous chérirez pour toujours.",
     "Explorez nos services et découvrez comment nous pouvons vous aider à réaliser l'événement de vos rêves.",
   ],
   img:img4,
+  link:"/contact",
 }
 
 // DATA_PAGE_TT_LES SERVICES
@@ -61,9 +62,26 @@ export const DATA_PAGE_TT_LES_SERVICES = {
   ],
 }
 
+
+// DATA_PAGE_SERVICE_PRO
+export const DATA_SERVICE_PRO={
+  service:"Évenement proffesionnel",
+  card:{
+    h3:"Évenement proffesionnel",
+    h4:"Transformez Vos Événements Professionnels avec Excellence",
+    liste:[
+      "Chez Eve-Event, nous comprenons l'importance de vos événements professionnels. Que ce soit pour un lancement de produit, une conférence, un séminaire ou une soirée d'entreprise, notre équipe dédiée est là pour vous offrir une expérience inoubliable et sur-mesure.",
+      "Nous nous engageons à comprendre vos objectifs et à les traduire en une réalité parfaite. Grâce à notre expertise en décoration et organisation, nous créons des environnements qui reflètent votre marque et captivent votre audience. Nous nous occupons de tous les détails, de la conception à l'exécution, en veillant à ce que chaque aspect de votre événement soit impeccablement réalisé.",
+      "Faites confiance à Eve-Event pour faire de vos événements professionnels un véritable succès. Ensemble, faisons de chaque moment une opportunité de briller et de laisser une impression durable.",
+    ],
+    img:img3,
+  }
+}
+
 // DATA_PAGE_SERVICE
 export const DATA_PAGE_SERVICE = [
   {service:"decoration-mariage",
+    link:"/evenement-prives/decoration-mariage",
     card:{
       h3:"Mariage personnalisé",
       liste:[
@@ -75,6 +93,7 @@ export const DATA_PAGE_SERVICE = [
     }
   },
   {service:"decoration-anniversaire",
+    link:"/evenement-prives/decoration-anniversaire",
     card:{
       h3:"Anniversaire personnalisé",
       liste:[
@@ -86,6 +105,7 @@ export const DATA_PAGE_SERVICE = [
     }
   },
   {service:"decoration-bapteme",
+    link:"/evenement-prives/decoration-bapteme",
     card:{
       h3:"Bateme personnalisé",
       liste:[
@@ -97,6 +117,7 @@ export const DATA_PAGE_SERVICE = [
     }
   },
   {service:"decoration-autre-fete",
+    link:"/evenement-prives/decoration-autre-fete",
     card:{
       h3:"toute sorte de fete",
       liste:[
@@ -183,11 +204,11 @@ export const DATA_NAV_LINK= [
    export  const DATA_CONTACT = {
     left :{
       h1: " Nous contacter", 
-      p1: "Venez échanger avec nous à propos de vos besoins, votre problématique ou tout simplement pour faire notre connaissance",
+      p1: "Vous avez des questions ou vous souhaitez en savoir plus sur nos services ? Notre équipe est à votre disposition pour répondre à toutes vos demandes. Contactez-nous dès aujourd'hui pour discuter de vos besoins et découvrir comment nous pouvons transformer vos événements en moments inoubliables.",
       coordonnees:{
         h3:"Nos coordonnées",
-        num:"05 44 34 44 10",
-        lenkSite:"www.HPprestige.com",
+        num:"07 59 25 83 54",
+        lenkSite:"www.eveGorieEvent.com",
       },
       adresse:{
         h3:"Adresse",
@@ -209,6 +230,18 @@ export const DATA_NAV_LINK= [
         }
       }
     }
+  }
+
+  // DATA_APROPOS
+  export const DATA_APROPOS={
+    link:"/contact",
+    img:img4,
+    h3:"À Propos de Nous",
+    list:[
+      "Bienvenue chez Eve-Event, votre partenaire de confiance pour la décoration et l'organisation d'événements inoubliables. Depuis notre création, nous nous sommes engagés à transformer vos rêves en réalité, en créant des ambiances uniques et personnalisées pour chaque occasion spéciale.",
+      "Que ce soit pour des mariages, des anniversaires, des baptêmes, ou des événements professionnels, notre équipe de passionnés met son expertise et sa créativité à votre service. Nous croyons que chaque détail compte et nous travaillons sans relâche pour que chaque événement soit une expérience magique et mémorable.",
+      "Chez Eve-Event, nous nous efforçons de dépasser vos attentes en vous offrant un service sur-mesure et en veillant à ce que chaque moment soit parfait. Rejoignez-nous et laissez-nous donner vie à vos plus beaux projets.",
+    ]
   }
 
   // DATA_FOOTER
